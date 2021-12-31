@@ -1,0 +1,49 @@
+body{
+    overflow-y: hidden;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+#calculator{
+height: 70vh;
+width: 40vw;
+/*margin: 15vh 30vw;*/
+margin-left: 60vh;
+background: blueviolet;
+border: 2px solid black;
+padding: 4px 2px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+#screen{
+width: 95%;
+height: 20%;
+background-color: skyblue;
+border: 2px solid black;
+margin: 2px;
+flex: auto;
+ display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#display{
+    font-family: cursive;
+    font-size: xx-large;  
+}
+.key:hover{
+    color: skyblue;
+}
+.key{
+	text-align: center;
+	font-family: cursive;
+	font-size: xx-large;
+    width: 20%;
+    height:15% ;
+    flex: auto;
+    background-color: white;
+    border: 2px solid black;
+    align-content: center;
+    cursor: pointer;
+}
